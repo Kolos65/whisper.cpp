@@ -5,8 +5,8 @@ import PackageDescription
 let cSettings: [CSetting] = [
     .unsafeFlags(["-fno-objc-arc", "-Wno-shorten-64-to-32", "-O3"]),
     .define("NDEBUG"),
-    .define("WHISPER_USE_COREML"),
-    .define("WHISPER_COREML_ALLOW_FALLBACK"),
+    //.define("WHISPER_USE_COREML"),
+    //.define("WHISPER_COREML_ALLOW_FALLBACK"),
     .define("GGML_USE_ACCELERATE"),
     .define("GGML_USE_METAL"),
     .define("ACCELERATE_NEW_LAPACK"),
